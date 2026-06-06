@@ -1,0 +1,27 @@
+kind = "mobile"
+previewPath = "/tahura-plumbing-mobile/"
+title = "Tahura Plumbing Mobile"
+version = "1.0.0"
+id = "artifacts/tahura-plumbing-mobile"
+router = "expo-domain"
+
+[[integratedSkills]]
+name = "expo"
+version = "1.0.0"
+
+[[services]]
+ensurePreviewReachable = "/status"
+name = "expo"
+paths = [ "/tahura-plumbing-mobile/" ]
+localPort = 23240
+
+[services.development]
+run = "pnpm --filter @workspace/tahura-plumbing-mobile run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/tahura-plumbing-mobile", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/tahura-plumbing-mobile", "run", "serve" ]
+
+[services.env]
+PORT = "23240"
+BASE_PATH = "/tahura-plumbing-mobile/"
