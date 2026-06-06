@@ -1,0 +1,29 @@
+kind = "web"
+previewPath = "/"
+title = "Tahura Plumbing Contractors"
+version = "1.0.0"
+id = "artifacts/tahura-plumbing"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21784
+
+[services.development]
+run = "pnpm --filter @workspace/tahura-plumbing run dev"
+
+[services.production]
+publicDir = "artifacts/tahura-plumbing"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21784"
