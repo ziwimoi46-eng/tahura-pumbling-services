@@ -3,9 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "serve . --listen tcp://0.0.0.0:$PORT --no-clipboard"
-  },
-  "dependencies": {
-    "serve": "^14.2.4"
+    "dev": "node server.js"
   }
 }

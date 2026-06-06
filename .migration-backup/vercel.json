@@ -1,7 +1,0 @@
-{
-  "version": 2,
-  "framework": null,
-  "buildCommand": "node artifacts/tahura-plumbing/build.mjs",
-  "outputDirectory": "artifacts/tahura-plumbing/dist",
-  "installCommand": ""
-}
