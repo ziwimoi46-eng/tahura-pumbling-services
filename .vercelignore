@@ -1,0 +1,12 @@
+artifacts/
+node_modules/
+.local/
+.agents/
+.git/
+.npmrc
+pnpm-workspace.yaml
+package.json
+replit.md
+.gitignore
+.replitignore
+.replit
