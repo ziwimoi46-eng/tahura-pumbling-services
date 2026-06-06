@@ -1,8 +1,5 @@
 {
   "name": "@workspace/tahura-plumbing",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "node server.js"
-  }
+  "version": "1.0.0",
+  "private": true
 }
