@@ -126,7 +126,7 @@ export default function App() {
     const lbNext = document.getElementById("lbNext");
     let lightboxImages: string[] = [];
     let lightboxIndex = 0;
-    const GALLERY_COUNT = 14;
+    const GALLERY_COUNT = 28;
 
     if (galleryTrack) {
       const items = galleryTrack.querySelectorAll<HTMLElement>(".gallery-item");
@@ -457,6 +457,20 @@ export default function App() {
     { src: "Screenshot_20260604-014744_Maps_1780521632105.jpg", alt: "Full bathroom", label: "Full Bathroom" },
     { src: "Screenshot_20260604-014748_Maps_1780521632079.jpg", alt: "Vessel sink", label: "Vessel Sink" },
     { src: "Screenshot_20260604-014759_Maps_1780521631992.jpg", alt: "Wall-hung WC", label: "Wall-Hung WC" },
+    { src: "IMG-20260611-WA0015_1781493897117.jpg", alt: "Shower valve controls", label: "Shower Controls" },
+    { src: "IMG-20260611-WA0026_1781493897142.jpg", alt: "Shower panel with handheld", label: "Shower Panel" },
+    { src: "IMG-20260611-WA0033_1781493897196.jpg", alt: "Shower system installation", label: "Shower Installation" },
+    { src: "IMG-20260612-WA0015_1781493897218.jpg", alt: "Luxury bathroom with basin", label: "Luxury Bathroom" },
+    { src: "IMG-20260612-WA0023_1781493897236.jpg", alt: "Grey marble basin", label: "Marble Basin" },
+    { src: "IMG-20260611-WA0038_1781493897254.jpg", alt: "Wall-hung toilet installation", label: "Wall-Hung Toilet" },
+    { src: "IMG-20260612-WA0021_1781493897287.jpg", alt: "Rain shower system", label: "Rain Shower" },
+    { src: "IMG-20260612-WA0028_1781493897316.jpg", alt: "Premium bathroom suite", label: "Premium Bathroom" },
+    { src: "IMG-20260612-WA0020_1781493897341.jpg", alt: "Complete bathroom fitout", label: "Bathroom Fitout" },
+    { src: "IMG-20260612-WA0027_1781493897367.jpg", alt: "Designer vessel basin", label: "Vessel Basin" },
+    { src: "IMG-20260611-WA0065_1781493897405.jpg", alt: "Grohe shower valve", label: "Shower Valve" },
+    { src: "IMG-20260611-WA0004_1781493897438.jpg", alt: "Marble rain shower ceiling", label: "Rain Shower Ceiling" },
+    { src: "IMG-20260611-WA0003_1781493897461.jpg", alt: "Overhead rain shower", label: "Overhead Shower" },
+    { src: "IMG-20260611-WA0005_1781493897487.jpg", alt: "Oval basin with tap", label: "Oval Basin" },
   ];
 
   const heroImg = images[11].src;
