@@ -1,0 +1,10 @@
+packages:
+  - artifacts/tahura-plumbing
+  - artifacts/tahura-plumbing-mobile
+
+catalog:
+  "@tanstack/react-query": "^5.62.7"
+  react: "^19.0.0"
+  react-dom: "^19.0.0"
+  zod: "^3.23.8"
+
